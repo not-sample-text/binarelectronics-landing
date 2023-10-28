@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+	@apply px-32 py-8 flex flex-col font-["noto_sans"] text-circuit-green text-opacity-75;
+	@apply max-xl:px-16;
+	@apply max-lg:px-8;
+	@apply max-md:px-4;
+}
+
+img.logo {
+	@apply block object-cover object-center h-48 mx-auto mb-8;
+	@apply max-xl:h-40;
+	@apply max-lg:h-32;
+	@apply max-md:h-full px-4;
+}
+
+img.icon {
+	@apply w-16 h-16;
+}
+
+div.services h3 {
+	@apply text-3xl font-bold text-center mb-4 text-circuit-green;
+}
+
+p.desc {
+	@apply max-w-prose mx-auto text-xl mb-5;
+}
+
+div.card-container {
+	@apply flex flex-row flex-wrap justify-center;
+}
+
+div.card {
+	@apply flex flex-col items-center justify-center shadow-lg rounded p-8 gap-10 m-2 flex-shrink-0 text-center;
+	@apply max-sm:flex-1;
+}
+
+p.card-title {
+	@apply font-bold text-xl text-gold;
+}
+
+footer {
+	@apply bg-stone-600 text-xl flex justify-center flex-wrap flex-shrink-0 text-white py-16;
+}
+
+footer span {
+	@apply font-bold text-2xl;
+}
+
+footer a {
+	@apply text-circuit-green underline;
+}
+
+div.contact {
+	@apply flex flex-col justify-center p-8 gap-2;
+}
