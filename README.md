@@ -68,7 +68,7 @@ We offer a range of services in the field of electronics:
 
 You can reach us via:
 
-- **Phone**: +40 766 220 126
+- **Phone**: +40784438399 
 
 - **Email**: [contact@binarelectronics.ro](mailto:contact@binarelectronics.ro)
 
